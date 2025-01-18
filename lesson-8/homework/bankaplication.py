@@ -1,6 +1,5 @@
 import os
 import random
-
 class Account:
     def __init__(self, account_number, name, initial_deposit=0):
         self.account_number = account_number

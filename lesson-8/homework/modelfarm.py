@@ -57,7 +57,6 @@ class Dog(Animal):
 cow = Cow("Bessie", "Cow", 25)
 sheep = Sheep("Dolly", "Sheep", 5)
 dog = Dog("Rex", "Dog", "Labrador")
-s
 print("\nInteracting with animals on the farm:")
 
 cow.eat()

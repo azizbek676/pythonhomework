@@ -1,5 +1,4 @@
-name,completed,due_date
-Buy groceries,False,2025-01-18
-Finish homework,False,2025-01-20
-Buy groceries,False,2025-01-18
-Finish homework,False,2025-01-20
+id,task,completed,priority
+1,Do laundry,True,3
+2,Buy groceries,True,2
+3,Finish homework,False,1
