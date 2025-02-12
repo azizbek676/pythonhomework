@@ -1,5 +1,0 @@
-sentence = input("Gapni kiriting: ")
-word_to_replace = input("O'zgartiriladigan so'z: ")
-new_word = input("Yangi so'z: ")
-new_sentence = sentence.replace(word_to_replace, new_word)
-print("Yangi gap:", new_sentence)

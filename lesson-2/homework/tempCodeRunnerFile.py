@@ -1,1 +1,0 @@
-print(f"Rounded number: {rounded_number}")
