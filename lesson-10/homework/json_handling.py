@@ -11,7 +11,7 @@ def save_tasks(file, tasks):
 
 def display_tasks(tasks):
     for t in tasks:
-        print(f"{t['id']}: {t['task']} - {'✔' if t['completed'] else '✘'} (Priority: {t['priority']})")
+        print(f"{t['id']}: {t['task']} - {'T' if t['completed'] else 'X'} (Priority: {t['priority']})")
 
 def calculate_stats(tasks):
     total, completed = len(tasks), sum(t['completed'] for t in tasks)
